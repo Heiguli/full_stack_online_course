@@ -8,7 +8,7 @@ sequenceDiagram
     server-->>browser: 302, server asks browser to perform a new HTTP get request at the location /exampleapp/notes
     deactivate server
 
-    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/exampleapp/notes
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
     server-->>browser: the html file 
     deactivate server
